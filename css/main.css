@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* UTILITY */
+.m {
+    margin: 15px;
+}
+
 /* SEZIONI PRINCIPALI */
 .box-1 {
     height: calc(100vh - 80px) ;
@@ -39,6 +44,12 @@
     height: 12%;
     background: rgb(18, 255, 255);
 }
+/* CONTENUTO INTERNO HEADER-SIDEBAR */
+
+.header-sidebar img {
+    width: 140px;
+}
+
 .nav-sidebar {
     height: 76%;
     background: rgb(0, 60, 255);
