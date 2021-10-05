@@ -9,23 +9,42 @@
 .box-1 {
     height: calc(100vh - 80px) ;
     background: teal;
-    display: flex   ; 
+    display: flex ; 
+    
 }
 
 .box-2 {
     height: 80px;
-    background: rgb(36, 0, 241);
+    background: rgb(123, 100, 255);
 }
 
 /* SEZIONI ALL'INTERNO DEL BOX-1 */
 .sidebar {
     flex-shrink: 0;
-    height: 100%;
+    /* height: 100%; */
     width: 180px;
     background: cornsilk;
 }
 .main-content {
     width: 100%;
-    height: 100%;
+  /*   height: 100%; */
     background: darkgray;
 }
+
+/* SEZIONI INTERNE SIDEBAR */
+ .header-sidebar  .nav-sidebar .footer-sidebar  {
+    width:100%;
+}
+.header-sidebar {
+    height: 12%;
+    background: rgb(18, 255, 255);
+}
+.nav-sidebar {
+    height: 76%;
+    background: rgb(0, 60, 255);
+}
+.footer-sidebar {
+    height: 12%;
+    background: rgb(18, 255, 255);
+}
+
