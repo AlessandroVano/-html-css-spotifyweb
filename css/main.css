@@ -5,3 +5,13 @@
     box-sizing: border-box;
 }
 
+
+.box-1 {
+    height: calc(100vh - 80px) ;
+    background: teal; 
+}
+
+.box-2 {
+    height: 80px;
+    background: rgb(36, 0, 241);
+}
