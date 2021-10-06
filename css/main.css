@@ -98,6 +98,7 @@ ul li  {
      color: white;
     flex-grow: 1;
     padding: 90px 15px 0;
+    overflow-y: auto ;
 } 
 /* Sezione bottone */
 .content-buttom {
@@ -133,7 +134,7 @@ ul li  {
 
     /* sezione playlist */
 
-    .content-playlist {
+    .playlist {
         margin-top: 30px;
         margin-bottom: 30px;
         color: rgb(160, 160, 160); 
