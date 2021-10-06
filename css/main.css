@@ -144,11 +144,16 @@ ul li  {
     }
 
     .album-list .album {
-        width: calc(100% / 6 - 15px);
+        max-width: calc(100% / 6 - 15px);
         margin-right: 15px;
         margin-top: 30px;
         height: 200px;
          background: grey; 
+    }
+
+    .album-list .album img {
+        width: 100%;
+        height: 100%;
     }
   
 
