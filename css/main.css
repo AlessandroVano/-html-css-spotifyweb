@@ -95,6 +95,7 @@ ul li  {
     flex-grow: 1;
     padding: 90px 15px 0;
 } 
+/* Sezione bottone */
 .content-buttom {
        width: calc(100% - 180px); 
     position: fixed;
@@ -111,10 +112,22 @@ ul li  {
     padding: 8px;
     border-left: 10%;
 } 
+/*  sezione menù di navigazione */
 .content-menù-nav {
-    height: 80px;
-    background: rgb(143, 131, 137);
-}
+     text-align: center;
+    }
+
+    .content-menù-nav li  {
+        display: inline-block;
+        padding-left:12px;
+        padding-right:12px ;
+        
+    }
+    .content-menù-nav li a {
+        text-decoration: none;
+        color: rgb(160, 160, 160);
+       
+    }
 
 
 
