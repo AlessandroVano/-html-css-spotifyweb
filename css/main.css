@@ -40,6 +40,7 @@ body {
 }
 
 /* SEZIONI ALL'INTERNO DEL BOX-1 */
+
 .sidebar {
     flex-shrink: 0;
     /* height: 100%;  */
@@ -85,8 +86,37 @@ ul li  {
     width: 20px;
     vertical-align: -25%; 
     padding-top: 10px;
-    
 }
+
+/* SEZIONI INTERNE MAIN-CONTENT */
+
+ .main-content {
+     background: rgb(17, 30, 54);
+    flex-grow: 1;
+    padding: 90px 15px 0;
+} 
+.content-buttom {
+       width: calc(100% - 180px); 
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80px;
+    background: rgba(29, 29, 29, 0.8);
+}
+     
+
+ .content-buttom button {
+    margin-top: 22px;
+    margin-left: 86%;
+    padding: 8px;
+    border-left: 10%;
+} 
+.content-menù-nav {
+    height: 80px;
+    background: rgb(143, 131, 137);
+}
+
+
 
 
 
