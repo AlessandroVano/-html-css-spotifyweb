@@ -3,7 +3,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
+   
 }
 
 /* UTILITY */
@@ -16,23 +16,30 @@ h3 {
     color: white;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 /* SEZIONI PRINCIPALI */
 .box-1 {
-    height: calc(100vh - 80px) ;
+   /*  height: calc(100vh - 60px) ; */
     background: teal;
-    display: flex ; 
+    /*  display: flex ;   */
+  
+    flex-grow: 1;
     
 }
 
 .box-2 {
-    height: 80px;
+    height: 60px;
     background: rgb(123, 100, 255);
 }
 
 /* SEZIONI ALL'INTERNO DEL BOX-1 */
 .sidebar {
     flex-shrink: 0;
-    /* height: 100%; */
+    height: 100%; 
     width: 180px;
      background: rgb(0, 0, 0);
      color: rgb(160, 160, 160); 
@@ -47,11 +54,9 @@ h3 {
 /* SEZIONI INTERNE SIDEBAR */
  .header-sidebar  .nav-sidebar .footer-sidebar  {
     width:100%;
-    
 }
 .header-sidebar {
-    
-     background: rgb(18, 255, 255); 
+  /*    background: rgb(18, 255, 255);  */
 }
 /* contenuto interno header sidebar */
 
@@ -60,7 +65,7 @@ h3 {
 }
 .nav-sidebar {
     
-     background: rgb(0, 60, 255); 
+   /*   background: rgb(0, 60, 255);  */
 }
 /* contenuto interno nav-sidebar  */
 
@@ -74,8 +79,8 @@ ul li  {
 }
 
 .footer-sidebar {
-   
-    background: rgb(18, 255, 255); 
+    margin-top: 20px;
+  /*  background: rgb(18, 255, 255);  */
 }
 .footer-sidebar img {
     width: 15px;
