@@ -180,6 +180,7 @@ ul li  {
 .playback img {
 width: 40px;
 margin: 10px;
+margin-top: 12%;
 }
  .playback div  {
     display: inline-block;
@@ -222,13 +223,42 @@ vertical-align: -15%;
     background-color:  rgb(155, 155, 155);
 }
 
+ .progress {
+    width: 20%;
+    height: 100%;
+    background-color:white;
+}
+
+
 .time {
-    vertical-align: 118%;
+    vertical-align: 256%;
     margin-left: 10px;
     margin-right: 10px;
 }
 
  .control span {
+     color: white;
+ }
+
+
+ /* SEZIONE DESTRA (Volume) */
+
+  .volume {
+      margin: 10px;
+      margin-top: 36px;
+  }
+ .progress-bar2 {
+    height: 4px;
+    width: 100px;
+    background-color:  rgb(155, 155, 155);
+ }
+ .progress2 {
+    width: 20%;
+    height: 100%;
+    background-color:white;
+ }
+
+ .icon-volume i {
      color: white;
  }
 
