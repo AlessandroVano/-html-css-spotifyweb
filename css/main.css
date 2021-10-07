@@ -147,6 +147,9 @@ ul li a {
         text-decoration: none;
         color: rgb(160, 160, 160); 
     }
+    .content-menù-nav li a:hover {
+        color: white;
+    }
 
     /* sezione playlist */
 
