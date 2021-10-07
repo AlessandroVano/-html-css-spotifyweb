@@ -16,12 +16,8 @@
 .mb {
     margin-bottom: 10px;
 }
-h2 {
+h2, h3, h6 {
     color: white;
-}
-h3 {
-    color: white;
-    /* text-align: center; */
 }
 
 body {
@@ -29,7 +25,7 @@ body {
     flex-direction: column;
     height: 100vh;
 }
-/* SEZIONI PRINCIPALI */
+/* SEZIONE MAIN */
 .box-1 {
     background: teal;
     flex-grow: 1;
@@ -39,10 +35,6 @@ body {
     font-size: 14px;
 }
 
-.box-2 {
-    height: 60px;
-    background: rgb(123, 100, 255);
-}
 
 /* SEZIONI ALL'INTERNO DEL BOX-1 */
 
@@ -170,7 +162,28 @@ ul li  {
         object-fit: contain;
     }
 
+/* SEZIONE FOOTER */
 
+.box-2 {
+   /*  height: 60px; */
+    background: rgb(123, 100, 255);
+    display: flex;
+    justify-content: space-between;
+}
 
+.playback img {
+width: 40px;
+margin: 10px;
+}
+ .playback div  {
+    display: inline-block;
+    vertical-align: 82%;
+}
 
+.playback span {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+ 
 
