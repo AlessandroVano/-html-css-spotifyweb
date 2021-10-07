@@ -158,6 +158,33 @@ ul li  {
         height: 100%;
     }
 
+    /* HOVER SU IMG */
+    .card:hover img {
+         filter: brightness(0.5);
+         transition: filter .2s;
+    }
+
+    /* POSIZIONAMENTO ICONA PLAY CIRCLE ALL'INTERNO DELL'IMMAGINE */
+
+    .card {
+        position: relative;
+    }
+
+    .card i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+        opacity: 0;
+    }
+
+    .card:hover i {
+        opacity: 1;
+        cursor: pointer;
+    }
+
     /* sezione playlist img tonda */
 
     .tonda {
