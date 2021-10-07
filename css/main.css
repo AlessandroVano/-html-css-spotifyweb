@@ -13,6 +13,9 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+ .ml {
+     margin-left: 5px;
+ }
 .mb {
     margin-bottom: 10px;
 }
@@ -166,7 +169,7 @@ ul li  {
 
 .box-2 {
    /*  height: 60px; */
-    background: rgb(123, 100, 255);
+   background: rgb(39, 37, 46);
     display: flex;
     justify-content: space-between;
 }
@@ -183,7 +186,20 @@ margin: 10px;
 .playback span {
     font-size: 10px;
     padding-top: 10px;
+    color: rgb(155, 155, 155);
 }
+
+ul li {
+    display: inline-block;
+}
+.icon-playback {
+    vertical-align: 30%;
+    margin-left: 10px;
+    color: rgb(155, 155, 155);
+}
+
+
+
 
  
 
