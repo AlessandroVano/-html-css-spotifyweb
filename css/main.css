@@ -21,6 +21,7 @@ h2 {
 }
 h3 {
     color: white;
+    /* text-align: center; */
 }
 
 body {
@@ -141,6 +142,7 @@ ul li  {
         margin-bottom: 120px;
         color: rgb(160, 160, 160); 
     }
+    
 
     .album-list {
         display: flex;
@@ -160,11 +162,12 @@ ul li  {
         height: 100%;
     }
 
-    /* .playlist-2 {
-        margin-top: 135px;
-    } */
-   
+    /* sezione playlist img tonda */
 
+    .tonda {
+        border-radius: 47%;
+        object-fit: contain;
+    }
 
 
 
