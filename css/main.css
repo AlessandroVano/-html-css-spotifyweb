@@ -34,9 +34,9 @@ body {
     background: teal;
     flex-grow: 1;
     display: flex;
+    /* mettendo overflow hidden al box-1 (contenitore di tutta la sezione) gli diciamo di tagliare il contenuto in eccesso, così facendo avremmo una barra di scorrimento e il footer in questione (box-2) non verrà schiacciato */
+    overflow: hidden;
     font-size: 14px;
-    
-    
 }
 
 .box-2 {
@@ -101,7 +101,8 @@ ul li  {
      color: white;
     flex-grow: 1;
     padding: 90px 15px 0;
-    overflow-y: auto ;
+    /* si inserisce overflow-y per aggiungere una barra di scorrimento  */
+    overflow-y: scroll ;
 } 
 /* Sezione bottone */
 .content-buttom {
